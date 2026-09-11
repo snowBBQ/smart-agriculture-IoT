@@ -1,0 +1,31 @@
+# OS and Editor artifacts
+.vscode/
+.idea/
+*.lnk
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# PlatformIO & Microcontrollers
+.pio/
+secrets.h
+
+# Media & Images
+backend/images/
+backend/images/raw/
+data/
+
+# Machine Learning weights
+*.pt
+*.onnx
+*.engine
+
+# Environment
+.env*
+*.code-workspace
