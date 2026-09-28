@@ -10,7 +10,7 @@ import asyncpg
 from gmqtt import Client as MQTTClient
 
 
-#from detector import GrapeDiseaseDetector
+from detector import GrapeDiseaseDetector
 
 # --- Configuration from Environment Variables ---
 DB_USER = os.getenv("POSTGRES_USER", "admin")
